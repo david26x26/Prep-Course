@@ -23,7 +23,24 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+
+  let fum ={}
+
+  for (let i = 0; i < string.length; i++) {
+     
+    if(fum.hasOwnProperty(string[i])){
+      fum[string[i]]+=1
+    
+    }else{
+    fum[string[i]]=1
+  }
+
+  
 }
+
+return fum
+}
+  
 
 
 function capToFront(s) {
