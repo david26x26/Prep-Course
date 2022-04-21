@@ -1,0 +1,30 @@
+html{
+    background-color: aqua;
+}
+h1{
+    color: blue;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    width: 500px;
+    left: 600px;
+    background-color: blueviolet;
+    padding: 50px;
+    border: 30px solid rebeccapurple;
+}
+#spanId{
+    font-size: 30px;
+    border: 50px;
+    color: darkgreen;
+
+}
+h2{
+    color: blue;
+    font-size: 60px;
+}
+#lacua{
+    color: blueviolet;
+    font-size: 30px;
+}
